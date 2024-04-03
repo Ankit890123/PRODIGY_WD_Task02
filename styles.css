@@ -1,0 +1,73 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+}
+
+.header {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.header img {
+  width: 200px; /* Adjust size as needed */
+  height: 200px; /* Adjust size as needed */
+}
+
+.stopwatch {
+  text-align: center;
+  margin-top: 20px;
+}
+
+#display {
+  font-size: 48px;
+  font-weight: bold;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 890px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+button {
+  padding: 12px 24px;
+  margin: 0 10px;
+  cursor: pointer;
+  font-size: 18px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+#laps {
+  margin-top: 20px;
+  list-style-type: none;
+  padding: 0;
+  
+}
+
+#laps li {
+  background-color: #fff;
+  padding: 15px 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#laps li .lap-time {
+  font-weight: bold;
+}
+
+#laps li .lap-number {
+  color: #007bff;
+  font-size: 18px;
+}
